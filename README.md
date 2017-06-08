@@ -14,3 +14,4 @@ Running Kafta includes following commands in debian:
 
 Program given in this repository is used to get the time delay 10 seconds from the system as nanoseconds. These nanoseconds value are taken by the Netty server.
 The Encode and Decoder in the Codec folder is used to transfer the time from client to server as json object.
+Use this POM file to give netty server dependecies and to run the project.
