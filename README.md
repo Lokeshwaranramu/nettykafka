@@ -1,6 +1,6 @@
 # nettykafka
 
-Problem: To create a java netty server that accepts the jason object and saves it to kaska queue.
+Problem: To create a java netty server that accepts the json object and saves it to kaska queue.
 
 Procedure:
 	 I have installed the netty server in the debian development machine. The kafka is made to run using the tar files provided by apache.
@@ -12,4 +12,5 @@ Running Kafta includes following commands in debian:
 *> bin/zookeeper-server-start.sh config/zookeeper.properties
 *> bin/kafka-server-start.sh config/server.properties
 
-Program given in this repository is used to get the time delay 10 seconds from the system as nanoseconds. These nanoseconds value are taken by the Netty server.fka queue.
+Program given in this repository is used to get the time delay 10 seconds from the system as nanoseconds. These nanoseconds value are taken by the Netty server.
+The Encode and Decoder in the Codec folder is used to transfer the time from client to server as json object.
